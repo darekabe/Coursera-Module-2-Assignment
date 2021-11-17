@@ -3,29 +3,38 @@
     box-sizing: border-box;
 }
 .container{
-    width:95%
+    width:90%;
+    align-self: center;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
     margin: 0;
-    background-color: rgb(255, 255, 193);
+    background-image: url("../images/background.jpg");
 }
 section{
+    
     position: relative;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    margin: 1%, 0%, 1%, 1%;
     float: left;
-    margin: 10px;
     border: 1px black solid;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43, 0.8);
 }
 header{
     text-align: center;
     font-size: 26px;
     font-weight: bolder;
     text-decoration: underline;
+    margin-bottom: 5%;
+    margin-top: 2%;
 }
  section > div{
      float: right;
     border: black 1px solid;
-    box-sizing: border-box;
 
  }
  #appTitle{
@@ -38,8 +47,9 @@ header{
      background-color: goldenrod;
  }
  p{
-     
-     box-sizing: border-box;
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
      margin: 10px;
      float: left;
      clear: right;
@@ -57,10 +67,11 @@ header{
 @media (min-width:768px) and (max-width: 991px){
 
         .sec-md-6{
-            width: 47%;
+            width: 49%;
+            
         }
         .sec-md-12{
-            width: 100%;
+            width: 99%;
         }
 }
 
